@@ -1,0 +1,34 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 600;
+  font-size: 1.7em;
+}
+.navButton {
+  margin: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+.navItems * {
+  margin: 0px 10px;
+}
+.navItems :hover {
+  border: wheat solid 1px;
+  border-radius: 10px;
+  padding: 3px;
+}
